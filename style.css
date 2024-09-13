@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #232f3e;
+    color: white;
+    padding: 10px 0;
+}
+
+.top-nav {
+    overflow: hidden; /* Contiene gli elementi flottanti */
+    padding: 0 20px;
+}
+
+.top-nav img {
+    float: left; /* Flotta il logo a sinistra */
+    height: 50px;
+}
+
+.nav-links {
+    float: right; /* Flotta i link di navigazione a destra */
+    margin-top: 15px;
+}
+
+.nav-links span {
+    display: inline-block;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.top-banner {
+    background-color: #ff9900;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.banner-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.gift-guides {
+    background-image: url(immagini/bg-image.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+.gift-guides h2, .gift-guides p{
+    position: relative;
+}
+
+.gift-guides img {
+    max-width: 100%;
+    height: auto;
+}
+
+.sez_prodotti {
+    background-color: white;
+    padding: 20px 0;
+}
+
+.sez_prodotti h3 {
+    text-align: center;
+}
+
+.prodotti {
+    text-align: center; /* Centra gli elementi nel loro contesto */
+}
+
+.prodotti img {
+    display: inline-block; /* Trattiamo le immagini come elementi inline-block */
+    margin: 0 10px;
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
+}
+
+.gaming, .audio-accessories {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.gaming img, .audio-accessories img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #232f3e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-logo img {
+    height: 50px;
+}
